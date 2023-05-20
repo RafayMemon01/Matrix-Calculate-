@@ -1,0 +1,70 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body >
+    <div class="main">
+        <h1 class="mainH1">Matrix Calculator</h1>
+        <!-- first number  -->
+        <div class="border">
+            <h1>Enter First Number</h1>
+            <div class="numberline1 divMargins">
+                <input id="fn1" type="number" placeholder="0">
+                <input id="fn2" type="number" placeholder="0">
+            </div>
+            <div class="numberline2 divMargins">
+                <input id="fn3" type="number" placeholder="0">
+                <input id="fn4" type="number" placeholder="0">
+            </div>
+            <!-- second number  -->
+            <h1>Enter Second Numbers</h1>
+            <div class="numberline3 divMargins">
+                <input id="sn1" type="number" placeholder="0">
+                <input id="sn2" type="number" placeholder="0">
+            </div>
+
+            <div class="numberline4 divMargins">
+                <input id="sn3" type="number" placeholder="0">
+                <input id="sn4" type="number" placeholder="0">
+            </div>
+            <!-- answer  -->
+            <h1>Your Answer Is</h1>
+            <div class="numberline3 divMargins">
+                <input type="number" placeholder="0">
+                <input type="number" placeholder="0">
+            </div>
+            <div class="numberline4 divMargins">
+                <input type="number" placeholder="0">
+                <input type="number" placeholder="0">
+            </div>
+        </div>
+        <div class="buttonStyle">
+            <button onclick="add()">Add</button>
+            <button onclick="subs()" class="space">Subtract</button><br>
+            <button onclick="multi()">Multiply</button>
+            <button onclick="divide()">Divide</button>
+        </div>
+
+    </div>
+    <footer>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/rafaymemon11" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.linkedin.com/in/rafay-rashid-930190253/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://twitter.com/rafaymemon01" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://github.com/RafayMemon01" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+        <p class="developer">Regards, Rafay Memon</p>
+      </footer>
+
+    <script src="./node.js" type="module"></script>
+</body>
+
+</html>
